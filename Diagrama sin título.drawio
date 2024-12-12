@@ -122,13 +122,11 @@
         <mxCell id="skcrEZ2b_6ta0W19hMza-1" value="BD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="625" y="-700" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="skcrEZ2b_6ta0W19hMza-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-2">
+        <mxCell id="skcrEZ2b_6ta0W19hMza-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="-280" as="targetPoint" />
+            <mxPoint x="385" y="-530" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="skcrEZ2b_6ta0W19hMza-2" value="NESTJS&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;NODE.JS&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="-560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="skcrEZ2b_6ta0W19hMza-3" value="SQLite" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="625" y="-614" width="60" height="30" as="geometry" />
@@ -136,11 +134,13 @@
         <mxCell id="skcrEZ2b_6ta0W19hMza-5" value="BASE DE DATOS AQUASYS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="-593.5" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="skcrEZ2b_6ta0W19hMza-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-6" target="skcrEZ2b_6ta0W19hMza-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="skcrEZ2b_6ta0W19hMza-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="-560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="skcrEZ2b_6ta0W19hMza-6" value="BACKEND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="15" y="-692" width="80" height="30" as="geometry" />
+        <mxCell id="skcrEZ2b_6ta0W19hMza-6" value="BACKEND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-372" y="-692" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="skcrEZ2b_6ta0W19hMza-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="46" y="-643.5" width="60" height="80" as="geometry" />
@@ -187,8 +187,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="skcrEZ2b_6ta0W19hMza-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-2" target="skcrEZ2b_6ta0W19hMza-12">
+        <mxCell id="skcrEZ2b_6ta0W19hMza-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" target="skcrEZ2b_6ta0W19hMza-12">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="-530" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="240" y="-530" />
               <mxPoint x="240" y="-217" />
@@ -289,6 +290,41 @@
         </mxCell>
         <mxCell id="skcrEZ2b_6ta0W19hMza-63" value="ANDROID STUDIO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="890" y="-554" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-64" value="NODE.JS Y NEST.JS&lt;div&gt;SERVIDOR AWS&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-600" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-65" target="skcrEZ2b_6ta0W19hMza-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-65" value="&lt;li&gt;&lt;strong&gt;Balanceo de carga&lt;/strong&gt; para distribuir el tráfico de forma eficiente entre varias instancias.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguridad&lt;/strong&gt; al ocultar la infraestructura y filtrar tráfico malicioso.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Caché de contenido estático&lt;/strong&gt; para mejorar el rendimiento y reducir la carga del backend.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Gestión de SSL/TLS&lt;/strong&gt; para cifrar y proteger las comunicaciones.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Enrutamiento inteligente&lt;/strong&gt; a diferentes servicios según la URL o el tipo de solicitud.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Alta disponibilidad y redundancia&lt;/strong&gt; al redirigir el tráfico solo a los servicios disponibles.&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="150" width="520" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="+---------------------+&#xa;          |   Dispositivo Móvil  |&#xa;          | (Kotlin / Android)   |&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    API Backend      |  &lt;-- (AWS EC2, EC2 Container, etc.)&#xa;          | (NestJS / Node.js)   |&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    Base de Datos    |  &lt;-- (AWS RDS, DynamoDB, etc.)&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    Almacenamiento   |  &lt;-- (Amazon S3)&#xa;          +---------------------+" link="+---------------------+&#xa;          |   Dispositivo Móvil  |&#xa;          | (Kotlin / Android)   |&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    API Backend      |  &lt;-- (AWS EC2, EC2 Container, etc.)&#xa;          | (NestJS / Node.js)   |&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    Base de Datos    |  &lt;-- (AWS RDS, DynamoDB, etc.)&#xa;          +----------+----------+&#xa;                     |&#xa;                     v&#xa;          +---------------------+&#xa;          |    Almacenamiento   |  &lt;-- (Amazon S3)&#xa;          +---------------------+" id="skcrEZ2b_6ta0W19hMza-67">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1610" y="-379.5" width="360" height="360" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-68" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="-280" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-69" value="FRONT-END (REACT)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1412" y="-272" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.111;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="skcrEZ2b_6ta0W19hMza-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="-250" as="sourcePoint" />
+            <mxPoint x="1600" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.222;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-68" target="skcrEZ2b_6ta0W19hMza-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skcrEZ2b_6ta0W19hMza-72" target="skcrEZ2b_6ta0W19hMza-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skcrEZ2b_6ta0W19hMza-72" value="RESUMEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-362" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
